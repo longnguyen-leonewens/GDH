@@ -45,3 +45,17 @@
 /******************************************************************************
  * PRIVATE FUNCTIONS
  ******************************************************************************/
+
+/**
+ * @brief
+ * @param  StartAddress
+ * @param  EndAddress
+ * @retval None
+ * @note   Local variables should be camel case named
+ */
+void FLASH_FindSector(int StartAddress, int EndAddress)
+{
+    int tempData;
+    int pTempBuffer;
+    int countNum;
+}
