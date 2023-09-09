@@ -2,9 +2,9 @@
   ******************************************************************************
   * @file    library.h
   * @author  Leo Newens (LongNDT5)
-  * @version 
-  * @date    
-  * @brief   
+  * @version
+  * @date
+  * @brief
   ******************************************************************************
   * @attention
   *
@@ -30,13 +30,15 @@
 
 /**
  * @brief Struct example
+ * @note  Struct shoulde be name [Module name]_[Function of Struct]TypeDef
+ * @note  Struct members should capitalized every word
  */
-typedef struct RandomName
+typedef struct __Module_DoSomethingTypeDef
 {
-    int num1;                       /*!< Explain functionality */
-    int num2;                       /*!< Explain functionality */
-    int num3;                       /*!< Explain functionality */
-}Name;
+    int NumOne;                       /*!< Explain functionality */
+    int NumSecond;                       /*!< Explain functionality */
+    int NumThird;                       /*!< Explain functionality */
+}Module_DoSomethingTypeDef;
 
 /******************************************************************************
  * EXPORTED CONSTANTS
@@ -45,8 +47,8 @@ typedef struct RandomName
 /** @defgroup Example of constants
  * @{
  */
-#define CONST_1
-#define CONST_2
+#define MODULE_CONST_1
+#define MODULE_CONST_2
 /**
  * @}
  */
